@@ -1,0 +1,3714 @@
+@media(min-width: 480px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    * a{
+        text-decoration: none;
+    }
+    header
+    {
+        background-color: white;
+        width: 100%;
+        height: auto;
+    }
+    .container
+    {   
+        height: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .container h2
+    {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .mainmenu
+    {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .mainmenu .mainlist
+    {
+        padding: 15px 0px;
+        text-align: center;
+    }
+    .mainlist
+    {
+        position: relative;
+    }
+    .submenu
+    {
+        display: none;
+        visibility: hidden;
+    }
+    #part1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .container1
+    {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .sec
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin:  auto;
+        padding: 40px 0px;
+        flex-direction: column-reverse;
+    }
+    .section1
+    {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+    }
+    .section2
+    {
+        width: 100%;
+        height: auto;
+    }
+    .section1 h2
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+    .section1 p
+    {
+        text-align: center;
+    }
+    .button
+    {
+        text-align: center;
+    }
+    #part2
+    {
+        height: auto;
+        width: 100%;
+    }
+    .container2
+    {
+        height: auto;
+        width: 100%;
+    }
+    .about
+    {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .flex1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .division1
+    {
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+    .img1
+    {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .img1 img
+    {
+        height: 600px;
+        width: 100%;
+    }
+    .num
+    {
+        height: 100px;
+        width: 70%;
+        position: absolute;
+        top: 70%;
+        left: 15%;
+    }
+    .num h4
+    {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .num span
+    {
+        font-size: 23px;
+        margin-left: 80px;
+    }
+    .division2
+    {
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+    #part3
+    {
+        height: auto;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container3
+    {
+        height: auto;
+        width: 80%;
+        margin: auto;
+    }
+    .flex2
+    {
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1
+    {
+        height: 400px;
+        width: 380px;
+        background-color: rgb(227, 64, 64);
+        padding: 30px 15px 5px 30px ;
+        color: #fff;
+    }
+    .card1 h2
+    {
+        font-size: 34px;
+    }
+    .card1 p
+    {
+        font-size: 17px;
+    }
+    .card2
+    {
+        height: 340px;
+        width: 340px;
+        background-color: azure;
+        margin-top: 30px;
+        padding: 30px 10px 10px 20px;
+        transition: 0.5s all;
+        margin-left: 20px;
+    }
+    .right
+    {
+        margin-left: 120px;
+        margin-top: 15px;
+    }
+    .card3
+    {
+        height: 340px;
+        width: 340px;
+        background-color: azure;
+        margin-top: 30px;
+        padding: 30px 10px 10px 20px;
+        transition: 0.5s all;
+        margin-left: 20px;
+    }
+    .card4
+    {
+        height: 340px;
+        width: 340px;
+        background-color: azure;
+        margin-top: 30px;
+        padding: 30px 10px 10px 20px;
+        transition: 0.5s all;
+        margin-left: 20px;
+    }
+    .scroll
+    {   
+        height: 700px;
+        width: 100%;
+    }
+    .scroll1
+    {
+        height: 700px;
+        width: 100%;   
+    }
+    .info
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inside1
+    {
+        margin-top: 80px;
+    }
+    .inside2
+    {
+        margin-top: 80px;
+    }
+    .inside3
+    {
+        margin-top: 80px;
+    }
+    .inside4
+    {
+        margin-top: 80px;
+    }
+    #menu
+    {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part4
+    {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .container4
+    {
+        height: 330px;
+        width: 100%;
+    }
+    .container4 h4
+    {
+        font-size: 14px;
+        padding-top: 60px;
+        padding-bottom: 14px;
+    }
+    .container4 p
+    {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .container4 p span
+    {
+        font-size: 40px;
+    }
+    .sand
+    {   
+        height: 30px;
+        width: 25%;
+        display: flex;
+        margin-left: 110px;
+        align-items: center;
+        justify-content: space-between;  
+    }
+    .p2
+    {
+        margin-left: 15px;
+    }
+    .p3
+    {
+        margin-left: 15px;
+    }
+    .p4
+    {
+        margin-left: 15px;
+    }
+    .container4 h5
+    {
+        margin-top: 30px;
+    }
+    .container4 h6
+    {
+        margin-top: 8px;
+    }
+    .collection
+    {
+        height: 3300px;
+        width: 100%;
+    }
+    .row1
+    {
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .cont
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cont p
+    {
+        margin-top: 10px;
+    }
+    .cont h3
+    {
+        margin-top: 10px;
+    }
+    .pic1
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic1 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic2
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic2 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic3
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic3 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .row2
+    {
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    .pic4
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic4 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic5
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic5 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic6
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+    .pic6 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .part5
+    {
+        height: auto;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container5
+    {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .profile
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .profile h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px;
+    }    
+    .profile p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .profilecard1
+    {
+        height: 550px;
+        width: 100%;
+    }
+    .flex3
+    {
+        height: 550px;
+        width: 68%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .p70
+    {
+        width: 100%;
+    }
+    .p70 .car
+    {
+        margin-top: 0px;
+    }
+    .p30
+    {
+        width: 100%;
+    }
+    .roundimg
+    {
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    .roundimg img
+    {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        border: 3px solid snow;
+        padding-top: -20px;
+    }
+    #event
+    {
+        height: 2200px;
+        width: 100%;
+        background-color: #fff ;
+    }
+    .part6
+    {
+        height: 2200px;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .container6
+    {
+        height: 200px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+    .container6 h4
+    {
+        text-align: center;
+        font-size: 15px;
+        color: #7f7f90;
+        padding-top: 60px;
+        font-weight: lighter;
+    }
+    .container6 p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .flex4
+    {
+        height: 750px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .data
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 8px 20px;
+    }
+    .data1
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data1 h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 8px 20px;
+    }
+    .data2
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data2 h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 8px 20px;
+    }
+    #chefs
+    {
+        height: 2150px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .part7
+    {
+        height: 2150px;
+        width: 80%;
+        background-color: #eee;
+        margin: auto;
+    }
+    .container7
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex5
+    {   
+        height: 1900px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+    }
+    .suit
+    {
+        height: 600px;
+        width: 100%;
+        background-color: #fff;
+        transition: all 0.5s;
+    }
+    .suitp1
+    {
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+    .chef1-box1
+    {
+        height: 380px;
+        width:  100%;
+        background-image: url(../images/chefs-1.jpg	);
+        position: relative;
+    }
+    svg
+    {
+        margin-top: 300px;
+    }
+    .suitp2
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .part8
+    {
+        height: 1600px;
+        width: 100%;
+    }
+    .contanier8
+    {
+        height: 1600px;
+        width: 100%;
+    }
+    .cross
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .cross h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px; 
+    }
+    .cross p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .flex6
+    {
+        height: 1400px;
+        width: 100%;
+    }
+    .carp
+    {
+        height: 1400px;;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .carp1
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .carp1 img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .carp2
+    {
+        width: 100%;
+        height: 800px;
+        margin-top: 0px;
+    }
+    .subflex1
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    #name
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #email
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #tel
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex2
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    #date
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #time
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #number
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex3
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    #message
+    {   
+        height: 200px;
+        width: 96%;;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .loop
+    {
+        height: 48px;
+        width: 200px;
+        margin-top: 10px;
+        margin-left: 135px;
+        padding: 12px 0px 5px 50px;
+    }
+    #gallery
+    {
+        height: 1700px;
+        width: 100%;
+    }
+    .part9
+    {
+        height: 1700px;
+        width: 100%;
+        margin: auto;
+    }
+    .container9
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex7
+    {
+        height: 1500px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .stay
+    {
+        height: 250px;
+        width: 100%;
+        transition: all 0.7s;
+        padding-bottom: 30px;
+    }
+    #contact
+    {
+        height: 2200px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part10
+    {
+        height: 2200px;
+        width: 80%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .flex8
+    {
+        height: 800px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .subform1
+    {
+        height: 380px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .address
+    {   
+        height: 150px;
+        width: 100%;
+    }
+    .address1
+    {
+        width: 70%;
+    } 
+    .email
+    {   
+        height: 150px;
+        width: 100%;
+    }
+    .email1
+    {
+        width: 70%;
+    } 
+    .subform2
+    {
+        height: 380px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .call
+    {   
+        height: 150px;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .call1
+    {
+        width: 70%;
+    } 
+    .setting
+    {   
+        height: 150px;
+        width: 100%;
+        margin-top: 35px;
+    }
+    .setting2
+    {
+        width: 70%;
+    } 
+    .flex9
+    {
+        height: 740px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .horizontal
+    {
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .sec1
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #name1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .sec2
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #email1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .subjects
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        /* background-color: blueviolet; */
+    }
+    #subject1
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .message
+    {
+        height: 220px;
+        width: 100%;
+        /* background-color: green; */
+        margin-left: 0px;
+    }
+    #message1
+    {
+        height: 180px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .loop1
+    {
+        margin-top: 40px;
+        margin-left: 28%;
+    }
+    .footer1
+    {
+        height: 750px;
+        width: 100%;
+        background-color: #1f1f24;
+    }
+    .carter
+    {
+        height: 750px;
+        width: 80%;
+    }
+    .flex14
+    {
+        height: 700px;
+        width: 100%;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .divided1
+    {
+        width: 100%;
+    }
+    .divided2
+    {
+        width: 100%;
+    }
+    .divided3
+    {
+        width: 100%;
+    }
+    .divided4
+    {
+        width: 100%;
+    }
+    
+
+}
+@media(min-width: 760px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    * a{
+        text-decoration: none;
+    }
+    
+    header
+    {
+        background-color: white;
+        width: 100%;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    .container
+    {   
+        height: 80px;
+        width: 100%;
+        margin: auto;
+        padding: 0px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 13px;
+    } 
+    .container h2
+    {
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .mainmenu
+    {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .btn
+    {
+        background-color: #ce1212;
+        padding: 8px 15px;
+        color: white;
+        font-size: 13px;
+        border-radius: 20px;
+    }
+    .mainmenu .mainlist
+    {
+        padding: 0px 13px;
+        text-align: center;
+    }
+    .submenu
+    {
+        display: none;
+        visibility: visible;
+        width: 100%;
+        margin-left: -70px;
+    }
+    #part1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .container1
+    {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .sec
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin:  auto;
+        padding: 40px 0px;
+        flex-direction: column-reverse;
+    }
+    .section1
+    {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        margin-top: -40px;
+    }
+    .section2
+    {
+        width: 100%;
+        height: auto;
+    }
+    .section1 h2
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+    .section1 p
+    {
+        text-align: center;
+    }
+    .button
+    {
+        text-align: center;
+    }
+    .img
+    {
+        width: 80%;
+        height: 600px;
+        margin: auto;
+    }
+    .img img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #part1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .container1
+    {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .sec
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        margin:  auto;
+        padding: 40px 0px;
+        flex-direction: column-reverse;
+    }
+    .section1
+    {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+    }
+    .section2
+    {
+        width: 100%;
+        height: auto;
+    }
+    .section1 h2
+    {
+        font-size: 35px;
+        text-align: center;
+    }
+    .section1 p
+    {
+        text-align: center;
+    }
+    .button
+    {
+        text-align: center;
+    }
+    #part2
+    {
+        height: auto;
+        width: 100%;
+    }
+    .container2
+    {
+        height: auto;
+        width: 100%;
+    }
+    .about
+    {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .flex1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 0px 10px;
+    }
+    .division1
+    {
+        width: 100%;
+        height: 600px;
+        position: relative;
+    }
+    .img1
+    {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .img1 img
+    {
+        height: 600px;
+        width: 100%;
+    }
+    .num
+    {
+        height: 100px;
+        width: 70%;
+        position: absolute;
+        top: 70%;
+        left: 15%;
+    }
+    .num h4
+    {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .num span
+    {
+        font-size: 23px;
+        margin-left: 165px;
+    }
+    .division2
+    {
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+    .button1 .boxbtn 
+    {
+        position: absolute;
+        left: 43%;
+        top: 60%;
+    }
+    #part3
+    {
+        height: auto;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container3
+    {
+        height: auto;
+        width: 100%;
+        margin: auto;
+    }
+    .flex2
+    {
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1
+    {
+        height: 400px;
+        width: 93%;
+        margin-left: 3.5%;
+    }
+    .le
+    {
+        margin-left: 240px;
+        margin-top: 60px;
+    }
+    .card1 h2
+    {
+        font-size: 34px;
+    }
+    .card1 p
+    {
+        font-size: 17px;
+    }
+    .card2
+    {
+        height: 340px;
+        width: 93%;
+        margin-left: 3.5%;
+    }
+    .right
+    {
+        margin-left: 300px;
+        margin-top: 15px;
+    }
+    .card3
+    {
+        height: 300px;
+        width: 93%;
+        margin-left: 3.5%;
+    }
+    .card4
+    {
+        height: 300px;
+        width: 93%;
+        margin-left: 3.5%;
+    }
+    .scroll
+    {   
+        height: 500px;
+        width: 100%;
+    }
+    .scroll1
+    {
+        height: 500px;
+        width: 100%;   
+    }
+    .info
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        /* align-items: center; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .inside1
+    {
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+    }
+    .inside2
+    {
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+    }
+    .inside3
+    {
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+    }
+    .inside4
+    {
+        margin-top: 100px;
+        width: 50%;
+        text-align: center;
+    }
+    #menu
+    {
+        height: 3600px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part4
+    {
+        height: 3600px;
+        width: 100%;
+        margin: auto;
+    }
+    .container4
+    {
+        height: 330px;
+        width: 100%;
+    }
+    .container4 h4
+    {
+        font-size: 14px;
+        padding-top: 60px;
+        padding-bottom: 14px;
+    }
+    .container4 p
+    {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .container4 p span
+    {
+        font-size: 40px;
+    }
+    .sand
+    {   
+        height: 30px;
+        width: 25%;
+        display: flex;
+        margin-left: 250px;
+        align-items: center;
+        justify-content: space-between;  
+    }
+    .p2
+    {
+        margin-left: 15px;
+    }
+    .p3
+    {
+        margin-left: 15px;
+    }
+    .p4
+    {
+        margin-left: 15px;
+    }
+    .container4 h5
+    {
+        margin-top: 30px;
+    }
+    .container4 h6
+    {
+        margin-top: 8px;
+    }
+    .collection
+    {
+        height: 3500px;
+        width: 100%;
+    }
+    .row1
+    {
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .cont
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cont p
+    {
+        margin-top: 10px;
+    }
+    .cont h3
+    {
+        margin-top: 10px;
+    }
+    .pic1
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic1 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic2
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic2 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic3
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic3 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .row2
+    {
+        height: 1500px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 140px;
+    }
+    .pic4
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic4 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic5
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic5 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .pic6
+    {
+        height: 380px;
+        width: 96%;
+        margin: 0px 25px;
+    }
+    .pic6 img
+    {
+        height: 380px;
+        width: 96%;
+    }
+    .part5
+    {
+        height: 900px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container5
+    {
+        height: 900px;
+        width: 100%;
+        margin: auto;
+    }
+    .profile
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .profile h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px;
+    }    
+    .profile p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .profilecard1
+    {
+        height: 550px;
+        width: 100%;
+    }
+    .flex3
+    {
+        height: 500px;
+        width: 68%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .p70
+    {
+        width: 100%;
+    }
+    .p70 .car
+    {
+        margin-top: 0px;
+    }
+    .p30
+    {
+        width: 100%;
+    }
+    .roundimg
+    {
+        height: 400px;
+        width: 400px;
+        margin-left: 80px;
+    }
+    .roundimg img
+    {
+        height: 400px;
+        width: 400px;
+        border-radius: 100%;
+        border: 3px solid snow;
+        padding-top: -20px;
+    }
+    #event
+    {
+        height: 2150px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part6
+    {
+        height: 2150px;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .container6
+    {
+        height: 200px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+    .container6 h4
+    {
+        text-align: center;
+        font-size: 15px;
+        color: #7f7f90;
+        padding-top: 60px;
+        font-weight: lighter;
+    }
+    .container6 p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .flex4
+    {
+        height: 750px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .data
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 8px 20px;
+    }
+    .data1
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data1 h3
+    {   
+        font-size: 30px;
+        margin: 500px 10px 8px 20px;
+    }
+    .data2
+    {
+        height: 700px;
+        width: 100%;
+    }
+    .data2 h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 8px 20px;
+    }
+    #chefs
+    {
+        height: 1500px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .part7
+    {
+        height: 1500px;
+        width: 80%;
+        background-color: #eee;
+        margin: auto;
+    }
+    .container7
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex5
+    {   
+        height: 1300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* background-color: aquamarine; */
+        flex-wrap: wrap;
+    }
+    .suit
+    {
+        height: 600px;
+        width: 48%;
+        background-color: #fff;
+        transition: all 0.5s;
+    }
+    .suitp1
+    {
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+    .chef1-box1
+    {
+        height: 380px;
+        width:  100%;
+        background-image: url(../images/chefs-1.jpg	);
+        position: relative;
+    }
+    svg
+    {
+        margin-top: 320px;
+    }
+    .suitp2
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .part8
+    {
+        height: 1400px;
+        width: 100%;
+    }
+    .contanier8
+    {
+        height: 1400px;
+        width: 100%;
+    }
+    .cross
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .cross h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px; 
+    }
+    .cross p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .flex6
+    {
+        height: 1150px;
+        width: 100%;
+    }
+    .carp
+    {
+        height: 1150px;;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .carp1
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .carp1 img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .carp2
+    {
+        width: 100%;
+        height: 800px;
+        margin-top: 0px;
+    }
+    .subflex1
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    #name
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #email
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #tel
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex2
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    #date
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #time
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #number
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex3
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    #message
+    {   
+        height: 200px;
+        width: 96%;;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .loop
+    {
+        height: 48px;
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 280px;
+        padding: 12px 0px 5px 50px;
+    }
+    #gallery
+    {
+        height: 1700px;
+        width: 100%;
+    }
+    .part9
+    {
+        height: 1700px;
+        width: 100%;
+        margin: auto;
+    }
+    .container9
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex7
+    {
+        height: 1500px;
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .stay
+    {
+        height: 250px;
+        width: 100%;
+        transition: all 0.7s;
+        padding-bottom: 30px;
+    }
+    #contact
+    {
+        height: 1800px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part10
+    {
+        height: 1800px;
+        width: 80%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .flex8
+    {
+        height: 400px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .subform1
+    {
+        height: 160px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .address
+    {   
+        height: 150px;
+        width: 49%;
+    }
+    .address1
+    {
+        width: 70%;
+    } 
+    .email
+    {   
+        height: 150px;
+        width: 49%;
+    }
+    .email1
+    {
+        width: 70%;
+    }
+    .subform2
+    {
+        height: 380px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .call
+    {   
+        height: 150px;
+        width: 49%;
+        margin-top: 50px;
+    }
+    .call1
+    {
+        width: 70%;
+    }
+    .setting
+    {   
+        height: 150px;
+        width: 49%;
+        margin-top: 50px;
+    }
+    .setting2
+    {
+        width: 70%;
+    }
+    .flex9
+    {
+        height: 740px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .horizontal
+    {
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .sec1
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #name1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .sec2
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #email1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .subjects
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        /* background-color: blueviolet; */
+    }
+    #subject1
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .message
+    {
+        height: 220px;
+        width: 100%;
+        /* background-color: green; */
+        margin-left: 0px;
+    }
+    #message1
+    {
+        height: 180px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .loop1
+    {
+        margin-top: 40px;
+        margin-left: 28%;
+    }
+    .footer1
+    {
+        height: 350px;
+        width: 100%;
+        background-color: #1f1f24;
+    }
+    .carter
+    {
+        height: 350px;
+        width: 80%;
+    }
+    .flex14
+    {
+        height: 350px;
+        width: 100%;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .divided1
+    {
+        width: 50%;
+    }
+    .divided2
+    {
+        width: 50%;
+    }
+    .divided3
+    {
+        width: 50%;
+    }
+    .divided4
+    {
+        width: 50%;
+    }
+
+}
+@media(min-width: 991px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    * a{
+        text-decoration: none;
+    }
+    
+    header
+    {
+        background-color: #fff;
+        width: 100%;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    .container
+    {   
+        height: 80px;
+        width: 80%;
+        margin: auto;
+        padding: 10px 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 15px;
+        /* background-color: aquamarine; */  
+    } 
+    .container h2
+    {
+        
+        padding: 10px 0px;
+    }
+    .mainmenu
+    {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 10px;
+    }
+    .btn
+    {   
+        background-color: #ce1212;
+        padding: 8px 23px;
+        color: white;
+        font-size: 13px;
+        border-radius: 20px;
+        margin-left: -10px;
+        margin-top: 5px;
+    }
+    .mainmenu .mainlist
+    {
+        padding: 0px 8px;
+    }
+    .submenu
+    {
+        display: none;
+        visibility: visible;
+        width: 100%;
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+    #part1
+    {
+        width: 100%;
+        height: auto;
+    }
+    .container1
+    {
+        width: 80%;
+        height: 700px;
+        margin: auto;
+    }
+    .sec
+    {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        /* align-items: center; */
+        margin:  auto;
+        padding: 40px 0px;
+        flex-direction: row;
+    }
+    .section1
+    {
+        height: 600px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 0px;
+    }
+    .section2
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .section1 h2
+    {
+        font-size: 43px;
+        text-align: left;
+    }
+    .section1 p
+    {
+        text-align: left;
+    }
+    .button
+    {
+        text-align: left;
+    }
+    .img
+    {
+        width: 92%;
+        height: 600px;
+        margin: auto;
+    }
+    .img img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #part2
+    {
+        height: 1275px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .container2
+    {
+        height: 1275px;
+        width: 80%;
+        margin: auto;
+    }
+    .about
+    {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .flex1
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .division1
+    {
+        width: 60%;
+        height: 1000px;
+    }
+    .img1
+    {
+        height: 1045px;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+    .img1 img
+    {
+        height: 1045px;
+        width: 100%;
+    }
+    .num
+    {
+        height: 80px;
+        width: 70%;
+        position: absolute;
+        top: 80%;
+        left: 18%;
+    }
+    .num h4
+    {
+        font-size: 23px;
+        text-align: center;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    .num span
+    {
+        font-size: 23px;
+        margin-left: 75px;
+    }
+    .division2
+    {
+        width: 38%;
+        height: 800px;
+    }
+    .button1 .boxbtn 
+    {
+        position: absolute;
+        left: 35%;
+        top: 100%;
+    }
+    #part3
+    {
+        height: 570px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container3
+    {
+        height: 570px;
+        width: 80%;
+        /* background-color: blueviolet; */
+        margin: auto;
+    }
+    .flex2
+    {
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card1
+    {
+        height: 400px;
+        width: 360px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .le
+    {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .card1 h2
+    {
+        font-size: 34px;
+    }
+    .card1 p
+    {
+        font-size: 17px;
+    }
+    .card2
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .right
+    {
+        margin-left: 50px;
+        margin-top: 6px;
+    }
+    .card3
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .card4
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .scroll
+    {   
+        height: 400px;
+        width: 100%;
+    }
+    .scroll1
+    {
+        height: 400px;
+        width: 80%;   
+    }
+    .info
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .inside1
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside2
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside3
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside4
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    #menu
+    {
+        height: 1400px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part4
+    {
+        height: 1400px;
+        width: 80%;
+        margin: auto;
+    }
+    .container4
+    {
+        height: 330px;
+        width: 100%;
+    }
+    .container4 h4
+    {
+        font-size: 14px;
+        padding-top: 60px;
+        padding-bottom: 14px;
+    }
+    .container4 p
+    {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .container4 p span
+    {
+        font-size: 40px;
+    }
+    .sand
+    {   
+        height: 30px;
+        width: 25%;
+        display: flex;
+        margin-left: 270px;
+        align-items: center;
+        justify-content: space-between;  
+    }
+    .p2
+    {
+        margin-left: 15px;
+    }
+    .p3
+    {
+        margin-left: 15px;
+    }
+    .p4
+    {
+        margin-left: 15px;
+    }
+    .container4 h5
+    {
+        margin-top: 30px;
+    }
+    .container4 h6
+    {
+        margin-top: 8px;
+    }
+    .collection
+    {
+        height: 1000px;
+        width: 100%;
+    }
+    .row1
+    {
+        height: 470px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .cont
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cont p
+    {
+        margin-top: 10px;
+    }
+    .cont h3
+    {
+        margin-top: 10px;
+    }
+    .pic1
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic1 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic2
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic2 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic3
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic3 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .row2
+    {
+        height: 470px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .pic4
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic4 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic5
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic5 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic6
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic6 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .part5
+    {
+        height: 550px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container5
+    {
+        height: 550px;
+        width: 80%;
+        margin: auto;
+    }
+    .profile
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .profile h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px;
+    }    
+    .profile p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .profilecard1
+    {
+        height: 350px;
+        width: 100%;
+    }
+    .flex3
+    {
+        height: 300px;
+        width: 68%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .p70
+    {
+        width: 70%;
+    }
+    .p70 .car
+    {
+        margin-top: 70px;
+    }
+    .p30
+    {
+        width: 30%;
+    }
+    .roundimg
+    {
+        height: 200px;
+        width: 200px;
+        margin-left: 80px;
+    }
+    .roundimg img
+    {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        border: 3px solid snow;
+        padding-top: 0px;
+    }
+    #event
+    {
+        height: 950px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part6
+    {
+        height: 950px;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .container6
+    {
+        height: 200px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+    .container6 h4
+    {
+        text-align: center;
+        font-size: 15px;
+        color: #7f7f90;
+        padding-top: 60px;
+        font-weight: lighter;
+    }
+    .container6 p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .flex4
+    {
+        height: 750px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    .data
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 0px 20px;
+    }
+    .data1
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data1 h3
+    {   
+        font-size: 30px;
+        margin: 500px 10px 0px 20px;
+    }
+    .data2
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data2 h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 0px 20px;
+    }
+    #chefs
+    {
+        height: 900px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .part7
+    {
+        height: 900px;
+        width: 80%;
+        background-color: #eee;
+        margin: auto;
+    }
+    .container7
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex5
+    {   
+        height: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        /* background-color: aquamarine; */
+        flex-wrap: nowrap;
+    }
+    .suit
+    {
+        height: 600px;
+        width: 32%;
+    }
+    .suitp1
+    {
+        width: 100%;
+        height: 400px;
+        margin: auto;
+    }
+    .chef1-box1
+    {
+        height: 380px;
+        width:  100%;
+    }
+    svg
+    {
+        margin-top: 330px;
+    }
+    .suitp2
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .part8
+    {
+        height: 860px;
+        width: 100%;
+    }
+    .contanier8
+    {
+        height: 860px;
+        width: 80%;
+    }
+    .cross
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .cross h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px; 
+    }
+    .cross p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .flex6
+    {
+        height: 600px;
+        width: 100%;
+    }
+    .carp
+    {
+        height: 600px;;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .carp1
+    {
+        width: 35%;
+        height: 600px;
+    }
+    .carp1 img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    .carp2
+    {
+        width: 65%;
+        height: 600px;
+        margin-top: 0px;
+    }
+    .subflex1
+    {
+        width: 100%;
+        height: 150px;
+        padding-left: 10px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    #name
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #email
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #tel
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex2
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    #date
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #time
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    #number
+    {
+        height: 50px;
+        width: 96%;
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+    .subflex3
+    {
+        width: 100%;
+        height: auto;
+        padding-left: 10px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    #message
+    {   
+        height: 200px;
+        width: 96%;;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .loop
+    {
+        height: 48px;
+        width: 200px;
+        margin-top: 30px;
+        margin-left: 145px;
+        padding: 12px 0px 5px 50px;
+    }
+    #gallery
+    {
+        height: 600px;
+        width: 100%;
+    }
+    .part9
+    {
+        height: 600px;
+        width: 80%;
+        margin: auto;
+    }
+    .container9
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .flex7
+    {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .stay
+    {
+        height: 250px;
+        width: 18%;
+        transition: all 0.7s;
+        padding-bottom: 30px;
+    }
+    #contact
+    {
+        height: 1650px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part10
+    {
+        height: 1650px;
+        width: 80%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .flex8
+    {
+        height: 400px;
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .subform1
+    {
+        height: 160px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .address
+    {   
+        height: 150px;
+        width: 49%;
+    }
+    .address1
+    {
+        width: 70%;
+    } 
+    .email
+    {   
+        height: 150px;
+        width: 49%;
+    }
+    .email1
+    {
+        width: 70%;
+    }
+    .subform2
+    {
+        height: 380px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .call
+    {   
+        height: 150px;
+        width: 49%;
+        margin-top: 50px;
+    }
+    .call1
+    {
+        width: 70%;
+    }
+    .setting
+    {   
+        height: 150px;
+        width: 49%;
+        margin-top: 50px;
+    }
+    .setting2
+    {
+        width: 70%;
+    }
+    .flex9
+    {
+        height: 600px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .horizontal
+    {
+        height: 130px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .sec1
+    {
+        height: 120px;
+        width: 49%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #name1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .sec2
+    {
+        height: 120px;
+        width: 49%;
+        margin-left: 0px;
+        padding-top: 50px;
+        /* background-color: blueviolet; */
+    }
+    #email1
+    {
+        margin-left: 0px;
+        width: 100%;    
+    }
+    .subjects
+    {
+        height: 120px;
+        width: 100%;
+        margin-left: 0px;
+        /* background-color: blueviolet; */
+    }
+    #subject1
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .message
+    {
+        height: 220px;
+        width: 100%;
+        /* background-color: green; */
+        margin-left: 0px;
+    }
+    #message1
+    {
+        height: 180px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .loop1
+    {
+        margin-top: 40px;
+        margin-left: 38%;
+    }
+    .footer1
+    {
+        height: 230px;
+        width: 100%;
+        background-color: #1f1f24;
+    }
+    .carter
+    {
+        height: 230px;
+        width: 80%;
+    }
+    .flex14
+    {
+        height: 230px;
+        width: 100%;
+        /* background-color: pink; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .divided1
+    {
+        width: 24%;
+    }
+    .divided2
+    {
+        width: 24%;
+    }
+    .divided3
+    {
+        width: 24%;
+    }
+    .divided4
+    {
+        width: 24%;
+    }
+
+    
+}
+@media(min-width: 1301px)
+{
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    * a{
+        text-decoration: none;
+    }
+    
+    header
+    {
+        background-color: #fff;
+        width: 100%;
+        position: sticky;
+        top: 0%;
+        z-index: 2;
+    }
+    .container
+    {   
+        height: 80px;
+        width: 80%;
+        margin: auto;
+        padding: 10px 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 18px;
+    } 
+    .container h2
+    { 
+        padding: 10px 0px;
+    }
+    .mainmenu
+    {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 10px;
+    }
+    .btn
+    {   
+        background-color: #ce1212;
+        padding: 8px 23px;
+        color: white;
+        font-size: 16px;
+        border-radius: 20px;
+        margin-left: -10px;
+        margin-top: 5px;
+    }
+    .mainmenu .mainlist
+    {
+        padding: 0px 8px;
+    }
+    .submenu
+    {
+        display: none;
+        visibility: visible;
+        width: 100%;
+        margin-left: -70px;
+        margin-top: 20px;
+    }
+    #part1
+    {
+        width: 100%;
+        height: 700px;
+    }
+    .container1
+    {
+        width: 80%;
+        height: 700px;
+        margin: auto;
+    }
+    .sec
+    {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        margin:  auto;
+        padding: 40px 0px;
+        flex-direction: row;
+    }
+    .section1
+    {
+        height: 600px;
+        width: 49%;
+        margin-top: 0px;
+    }
+    .section1 h2
+    {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+    .section1 p
+    {
+        font-size: 20px;
+    }
+    .section2
+    {
+        width: 49%;
+        height: 600px;
+    }
+    .section1 h2
+    {
+        font-size: 43px;
+        text-align: left;
+    }
+    .section1 p
+    {
+        text-align: 20px;
+    }
+    .button
+    {
+        text-align: left;
+    }
+    .img
+    {
+        width: 92%;
+        height: 600px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .img img
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #part2
+    {
+        height: 980px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .container2
+    {
+        height: 980px;
+        width: 80%;
+        margin: auto;
+    }
+    .about
+    {
+        height: 150px;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+    }
+    .flex1
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .division1
+    {
+        width: 60%;
+        height: 800px;
+    }
+    .img1
+    {
+        height: 740px;
+        width: 100%;
+    }
+    .img1 img
+    {
+        height: 740px;
+        width: 100%;
+    }
+    .num
+    {
+        height: 80px;
+        width: 70%;
+        position: absolute;
+        top: 66%;
+        left: 16%;
+    }
+    .num h4
+    {
+        font-size: 23px;
+    }
+    .num span
+    {
+        font-size: 23px;
+        margin-left: 190px;
+    }
+    .division2
+    {
+        width: 38%;
+        height: 800px;
+    }
+    .button1 .boxbtn 
+    {
+        position: absolute;
+        left: 38%;
+        top: 62%;
+    }
+    .sun
+    {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    .sun1
+    {
+        font-size: 18px;
+        line-height: 1.3;
+        text-align: left;
+    }
+    .division2 p
+    {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .button1
+    {
+        height: 400px;
+        width: 100%;
+    }
+    .button1 img
+    {
+        height: 400px;
+        width: 100%;  
+    }
+    #part3
+    {
+        height: 570px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container3
+    {
+        height: 570px;
+        width: 80%;
+        margin: auto;
+    }
+    .flex2
+    {
+        height: auto;
+        width: 100%;
+        padding-top: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card1
+    {
+        height: 400px;
+        width: 360px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .le
+    {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .card1 h2
+    {
+        font-size: 34px;
+    }
+    .card1 p
+    {
+        font-size: 17px;
+    }
+    .card2
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .right
+    {
+        margin-left: 100px;
+        margin-top: 6px;
+    }
+    .card3
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .card4
+    {
+        height: auto;
+        width: 280px;
+        margin-left: 15px;
+    }
+    .scroll
+    {   
+        height: 400px;
+        width: 100%;
+    }
+    .scroll1
+    {
+        height: 400px;
+        width: 80%;   
+    }
+    .info
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .inside1
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside2
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside3
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    .inside4
+    {
+        margin-top: 170px;
+        width: 25%;
+        text-align: center;
+    }
+    #menu
+    {
+        height: 1370px;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part4
+    {
+        height: 1370px;
+        width: 80%;
+        margin: auto;
+    }
+    .container4
+    {
+        height: 330px;
+        width: 100%;
+    }
+    .container4 h4
+    {
+        font-size: 14px;
+        padding-top: 60px;
+        padding-bottom: 14px;
+    }
+    .container4 p
+    {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+    .container4 p span
+    {
+        font-size: 40px;
+    }
+    .sand
+    {   
+        height: 30px;
+        width: 25%;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;  
+    }
+    .p2
+    {
+        margin-left: 15px;
+    }
+    .p3
+    {
+        margin-left: 15px;
+    }
+    .p4
+    {
+        margin-left: 15px;
+    }
+    .container4 h5
+    {
+        margin-top: 30px;
+    }
+    .container4 h6
+    {
+        margin-top: 8px;
+    }
+    .collection
+    {
+        height: 1000px;
+        width: 100%;
+    }
+    .row1
+    {
+        height: 470px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .cont
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .cont p
+    {
+        margin-top: 10px;
+    }
+    .cont h3
+    {
+        margin-top: 10px;
+    }
+    .pic1
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic1 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic2
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic2 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic3
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic3 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .row2
+    {
+        height: 480px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    .pic4
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic4 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic5
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic5 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .pic6
+    {
+        height: 380px;
+        width: 32%;
+        margin: 0px 0px;
+    }
+    .pic6 img
+    {
+        height: 380px;
+        width: 100%;
+    }
+    .part5
+    {
+        height: 550px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .container5
+    {
+        height: 550px;
+        width: 80%;
+        margin: auto;
+    }
+    .profile
+    {
+        height: 200px;
+        width: 100%;
+    }
+    .profile h4
+    {
+        text-align: center;
+        font-size: 15px;
+        padding-top: 60px;
+    }    
+    .profile p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .profilecard1
+    {
+        height: 350px;
+        width: 100%;
+    }
+    .flex3
+    {
+        height: 300px;
+        width: 68%;
+        display: flex;
+        margin-top: -60px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .p70
+    {
+        width: 70%;
+    }
+    .p70 .car
+    {
+        margin-top: 70px;
+    }
+    .p30
+    {
+        width: 30%;
+    }
+    .roundimg
+    {
+        height: 200px;
+        width: 200px;
+        margin-left: 80px;
+    }
+    .roundimg img
+    {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        border: 3px solid snow;
+        padding-top: 0px;
+    }
+    #event
+    {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+    }
+    .part6
+    {
+        height: auto;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+    }
+    .container6
+    {
+        height: 200px;
+        width: 100%;
+        /* background-color: antiquewhite; */
+    }
+    .container6 h4
+    {
+        text-align: center;
+        font-size: 15px;
+        color: #7f7f90;
+        padding-top: 60px;
+        font-weight: lighter;
+    }
+    .container6 p
+    {
+        text-align: center;
+        padding-top: 20px;
+        font-size: 50px;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+    .flex4
+    {
+        height: 750px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+    .data
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 0px 20px;
+    }
+    .data1
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data1 h3
+    {   
+        font-size: 30px;
+        margin: 500px 10px 0px 20px;
+    }
+    .data2
+    {
+        height: 700px;
+        width: 32%;
+    }
+    .data2 h3
+    {   
+        font-size: 30px;
+        margin: 500px 0px 0px 20px;
+    }
+    #chefs
+    {
+        height: 900px;
+        width: 100%;
+        background-color: #eee;
+    }
+    .part7
+    {
+        height: 900px;
+    }
+}
